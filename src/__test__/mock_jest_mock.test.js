@@ -1,7 +1,7 @@
 import * as app from "../App";
 import * as math from "../components/math";
 
-// Set all module functions to jest.fn
+
 jest.mock("../components/math.js");
 test("calls math.add", () => {
   app.doAdd(1, 2);
